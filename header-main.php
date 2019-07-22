@@ -46,7 +46,7 @@
                     'theme_location' => 'heder-menu',
                      'menu_id'        => 'primary-menu',
                     'depth'           => 2,
-                    'container'       => false,
+                    'container'       => 'div',
                     'menu_class'      => 'navbar-nav mr-auto',
                     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                     'walker'          => new WP_Bootstrap_Navwalker()   
